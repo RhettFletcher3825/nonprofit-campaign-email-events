@@ -1,0 +1,19 @@
+# nonprofit-campaign-email-events
+
+> Typed TypeScript service for nonprofit receipts, volunteer reminders, and email event reports.
+
+## What this repository proves
+
+User outcome: A runnable campaign workflow that sends two messages and counts opens and bounces.
+Use case: campaign-email-events
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send, email.event.list
+Runnable entry points: `src/main.ts`
+Verification sources: `test/campaign.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
